@@ -1,3 +1,15 @@
+
+## Disclaimer
+
+This script is intended for educational purposes and ethical security research only. Unauthorized use of this script against websites or systems without explicit permission is illegal and unethical. Always obtain proper authorization before testing or extracting data from any web application.
+
+The authors of this script are not responsible for any misuse or damage caused by the use of this tool. Use it responsibly and comply with all relevant laws and regulations.
+
+
+
+
+
+
 Overview
 
 Web application security researchers and penetration testers often need to analyze the HTML content of web pages to uncover potential security issues. This script automates the process of identifying and extracting hidden fields and HTML comments, which can contain valuable information for vulnerability assessment and exploitation.
