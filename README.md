@@ -22,10 +22,8 @@ This Python script fetches the content of a given URL, parses the HTML, extracts
   
 
 2. Install the required libraries:
-    ```sh
-    pip install -r requirements.txt
-    ```
 
+  
 ## Usage
 
 1. Run the script:
