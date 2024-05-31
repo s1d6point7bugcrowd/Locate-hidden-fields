@@ -1,9 +1,12 @@
 import requests
 from bs4 import BeautifulSoup, Comment
 
+# Custom header for traffic identification
+headers = {'Custom-Header': 'username'}
+
 def fetch_url(url):
     try:
-        response = requests.get(url)
+        response = requests.get(url, headers=headers)
         if response.status_code == 200:
             return response.text
         else:
@@ -53,5 +56,3 @@ if __name__ == "__main__":
 
         # Print and save the results
         print_and_save_results(comments, hidden_fields)
-
-
